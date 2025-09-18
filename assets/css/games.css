@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #3A78DB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Menu Navegação */
+nav{
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #444;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+/* Footer */
+footer{
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p{
+    color: white;
+}
