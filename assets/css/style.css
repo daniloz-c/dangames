@@ -43,6 +43,7 @@ main{
 /* Secao principal */
 section{
     flex: 3;
+
 }
 
 article{
@@ -53,36 +54,15 @@ article{
     margin-bottom: 20px;
 }
 
-/* Botao */
-.botao{
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 3px;
-}
-
-.botao:hover{
-    background-color: #0056b3;
-}
 
 /* Barra lateral aside */
 aside{
-    flex: 1;
+    flex: 4;
     background-color: #fff8dc;
     padding: 15px;
     border: 1px solid #ccc;
 }
 
-h2{
-    color:#333;
-}
-
-p{
-    color: black;
-    line-height: 1.3;
-}
 
 /* Footer */
 footer{

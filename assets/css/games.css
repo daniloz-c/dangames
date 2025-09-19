@@ -33,39 +33,47 @@ nav a:hover{
     background-color: black;
 }
 
-.container {
-  text-align: center;
-  padding: 20px;
-}
-
-.page-title {
-  color: #444;
-  margin: 0 0 5px;
-}
-
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
-}
-
-.page-logo {
-  width: 200px;
-}
-
-.alura-logo {
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
 body > img {
   margin: 0 10px;
 }
 
 img {
-  max-height: 250px;
+    max-height: 300px;
+    margin-left: 15px;
 }
+
+/********************************************************************************** Layout principal */
+.container {
+  padding: 20px;
+}
+
+.game {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Contêiner que vai colocar a imagem e o aside lado a lado */
+.media {
+  display: flex;          /* lado a lado */
+  align-items: flex-start; /* alinha pelo topo */
+  gap: 20px;              /* espaço entre imagem e aside */
+}
+
+img {
+  max-width: 300px;       /* ajuste conforme precisar */
+  height: auto;
+  display: block;
+}
+
+.description {
+  flex: 1;                /* ocupa o resto do espaço */
+  text-align: justify;
+}
+
+
 
 /* Footer */
 footer{
