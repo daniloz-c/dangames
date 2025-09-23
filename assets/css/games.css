@@ -34,6 +34,15 @@ nav a:hover {
 }
 
 /*======================================= Principal           */
+
+
+.container-core{
+    display: flex;
+    gap: 20px;
+
+}
+
+
 .container {
     background-color: white;
     padding: 50px;
@@ -42,6 +51,7 @@ nav a:hover {
     margin-bottom: 20px;
     display: flex;
     gap: 30px;
+    text-align: center;
 }
 
 aside {
@@ -52,10 +62,10 @@ aside {
 
 body > img {
     margin: 0 10px;
-}
+}   
 
 img {
-    max-height: 250px;
+    max-height: 300px;
 }
 
 /* Footer */
