@@ -35,15 +35,7 @@ nav a:hover{
 
 /* Layout principal */
 main{
-    display: flex;
-    margin: 50px;
-    gap: 20px;
-}
-
-/* Secao principal */
-section{
-    flex: 3;
-
+    text-align: center;
 }
 
 article{

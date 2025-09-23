@@ -36,6 +36,15 @@ nav a:hover {
 <<<<<<< HEAD
 =======
 /*======================================= Principal           */
+
+
+.container-core{
+    display: flex;
+    gap: 20px;
+
+}
+
+
 .container {
     background-color: white;
     padding: 50px;
@@ -44,6 +53,7 @@ nav a:hover {
     margin-bottom: 20px;
     display: flex;
     gap: 30px;
+    text-align: center;
 }
 
 aside {
@@ -55,15 +65,19 @@ aside {
 >>>>>>> 2c2e3ff4b96f541b709d94b9cc1a76cd0f7f5eaa
 body > img {
     margin: 0 10px;
-}
+}   
 
 img {
+<<<<<<< HEAD
 <<<<<<< HEAD
     max-height: 300px;
     margin-left: 15px;
 =======
     max-height: 250px;
 >>>>>>> 2c2e3ff4b96f541b709d94b9cc1a76cd0f7f5eaa
+=======
+    max-height: 300px;
+>>>>>>> f3ffc3dbe11fe0524c3d3fb86749499f80786c76
 }
 
 /********************************************************************************** Layout principal */
